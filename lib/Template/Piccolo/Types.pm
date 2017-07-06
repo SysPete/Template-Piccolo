@@ -38,9 +38,6 @@ An instance of L<URI>.
 declare 'Container',
   as InstanceOf ['Template::Flute::Container'];
 
-declare 'Elt',
-  as InstanceOf ['XML::Twig::Elt'];
-
 declare 'Form',
   as InstanceOf ['Template::Piccolo::Form'];
 
@@ -61,9 +58,6 @@ declare 'ReadableFilePath',
 
 declare 'Specification',
   as InstanceOf ['Template::Piccolo::Specification'];
-
-declare 'Twig',
-  as InstanceOf ['XML::Twig'];
 
 declare 'URI',
   as InstanceOf ['URI'];
